@@ -1,7 +1,7 @@
 name: render
 on:
   workflow_dispatch:
-    branches: main
+    branches: master
 permissions:
   contents: write
 jobs:
