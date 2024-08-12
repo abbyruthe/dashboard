@@ -1,0 +1,17 @@
+---
+title: "diamonds"
+output: html_document
+date: "`r Sys.time()`"
+---
+
+```{r}
+library(tidyverse)
+```
+
+
+```{r}
+diamonds %>% 
+  ggplot(aes(x = cut)) +
+  geom_bar()
+```
+
