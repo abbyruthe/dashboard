@@ -5,11 +5,10 @@ date: "`r Sys.time()`"
 ---
 
 ```{r}
-# library(tidyverse)
+library(ggplot2)
 ```
 ```{r}
-diamonds %>% 
-  ggplot(aes(x = cut)) +
+ggplot(diamonds, aes(x = cut)) +
   geom_bar()
 ```
 
