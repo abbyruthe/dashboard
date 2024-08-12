@@ -8,6 +8,8 @@ date: "`r Sys.time()`"
 library(ggplot2)
 ```
 ```{r}
+
+
 ggplot(diamonds, aes(x = cut)) +
   geom_bar()
 ```
